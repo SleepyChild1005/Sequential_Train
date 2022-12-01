@@ -1,0 +1,84 @@
+CT_idx,CT_name,total_img_num,img_num,sub_img_name,dim_x,dim_y,dim_z,spacing_x,spacing_y,spacing_z,labeled_slice_num,note
+0,dermoid_1,5,1,302 - Orbit Pre  2.0  J40s  2 ,225,512,512,1,1,1,57,none
+0,dermoid_1,5,2,302 - Orbit CE  2.0  J40s  2,305,512,512,1,1,1,73,none
+0,dermoid_1,5,3,302 - <MPR Thick Range> ,495,272,512,1,1,1,78,none
+0,dermoid_1,5,5,302 - <MPR Thick Range[1]>,512,512,391,1,1,1,16,rot
+1,dermoid_2,3,2,16 - ,161,512,512,1,1,1,30,none
+1,dermoid_2,3,3,16 - ,164,512,512,1,1,1,24,none
+2,hemangioma_1,5,1,187 - Orbit Pre  2.0  J40s  2 ,154,512,512,1,1,1,55,none
+2,hemangioma_1,5,2,187 - Orbit CE  2.0  J40s  2,186,512,512,1,1,1,47,none
+2,hemangioma_1,5,3,187 - <MPR Thick Range> ,496,293,512,1,1,1,45,none
+2,hemangioma_1,5,5,187 - <MPR Thick Range[1]>,512,512,347,1,1,1,9,rot
+3,hemangioma_2,3,1,454 - ,168,512,512,1,1,1,90,none
+3,hemangioma_2,3,2,454 - ,168,512,512,1,1,1,95,none
+3,hemangioma_2,3,3,454 - Reformatted ,512,512,350,1,1,1,89,none
+4,hemangioma_3,3,1,43 - ,191,512,512,1,1,1,59,none
+4,hemangioma_3,3,2,43 - ,191,512,512,1,1,1,57,none
+4,hemangioma_3,3,3,43 - ,302,499,512,1,1,1,93,none
+5,13346540(hdf),1,1,13346540 - Orbit CE  3.0  H31s ,273,512,512,1,1,1,54,none
+6,24179101,2,1,24179101 - Orbit CE  3.0  H31s ,341,512,512,1,1,1,41,none
+6,24179101,2,2,24179101 - Orbit CE  3.0  SPO  cor ,512,604,616,1,1,1,102,none
+7,29639104,3,1,30237835 - Orbit Non_CE  3.0  MPR,532,512,512,1,1,1,38,y
+7,29639104,3,2,30237835 - Orbit Non_CE  3.0  H31s ,280,512,512,1,1,1,38,none
+7,29639104,3,3,30237835 - Orbit Non_CE  3.0  H60s ,280,512,512,1,1,1,280,none
+8,29327635(hdf),2,1,29327635 -  Sft Tissue 2.0 CE,273,512,512,1,1,1,47,none
+8,29327635(hdf),2,2,29327635 -  Sft Tissue 3.0 CE,512,331,512,1,1,1,65,none
+9,24269495,2,1,24269495 - Orbit CE  3.0  H31s ,374,512,512,1,1,1,25,none
+9,24269495,2,2,24269495 - Orbit CE  3.0  SPO  cor ,205,512,512,1,1,1,13,y
+10,24717333,2,1,24717333 - Orbit CE  3.0  H31s ,270,512,512,1,1,1,51,none
+10,24717333,2,2,24717333 - Orbit CE  3.0  SPO,512,638,607,1,1,1,109,rot
+11,29639104(hdf),2,1,29639104 - Orbit CE  3.0  H31s ,304,512,512,1,1,1,20,none
+11,29639104(hdf),2,2,29639104 - Orbit CE  3.0  MPR,539,512,512,1,1,1,28,y
+12,30237835,3,1,30237835 - Orbit Non_CE  3.0  MPR,532,512,512,1,1,1,38,y
+12,30237835,3,2,30237835 - Orbit Non_CE  3.0  H31s ,280,512,512,1,1,1,38,none
+12,30237835,3,3,30237835 - Orbit Non_CE  3.0  H60s ,280,512,512,1,1,1,280,none
+13,30959772(hdf),1,1,30959772 - axial  2.4  H40s,324,509,512,1,1,1,55,none
+14,34634744,3,1,34634744 - Orbit Non_CE  3.0  H31s ,298,512,512,1,1,1,27,none
+14,34634744,3,3,34634744 - Orbit CE  3.0  MPR,512,737,720,1,1,1,107,rot
+15,D_1162127_3_20140311_normal_1_dermoid cyst _0,6,1,D_1162127_3_20140311_normal_1_dermoid cyst _0 - WO  2.0  H31s ,289,512,512,0.27734375,0.27734375,0.27734375,36,none
+15,D_1162127_3_20140311_normal_1_dermoid cyst _0,6,2,D_1162127_3_20140311_normal_1_dermoid cyst _0 - WO  2.0  MPR,292,512,863,0.19921875,0.19921875,0.19921875,38,y
+15,D_1162127_3_20140311_normal_1_dermoid cyst _0,6,3,D_1162127_3_20140311_normal_1_dermoid cyst _0 - WO  2.0  H70h ,289,512,512,0.27734375,0.27734375,0.27734375,13,none
+15,D_1162127_3_20140311_normal_1_dermoid cyst _0,6,4,D_1162127_3_20140311_normal_1_dermoid cyst _0 - WE  2.0  H31s ,289,512,512,0.27734375,0.27734375,0.27734375,43,none
+15,D_1162127_3_20140311_normal_1_dermoid cyst _0,6,5,D_1162127_3_20140311_normal_1_dermoid cyst _0 - WE  2.0  MPR,312,512,838,0.19921875,0.19921875,0.19921875,47,y
+15,D_1162127_3_20140311_normal_1_dermoid cyst _0,6,6,D_1162127_3_20140311_normal_1_dermoid cyst _0 - WE  2.0  H70h ,289,512,512,0.27734375,0.27734375,0.27734375,25,none
+16,D_1183769_3_20121015_normal_1_hemangioma_0,4,1,D_1183769_3_20121015_normal_1_hemangioma_0 - WO  2.0  H31s ,324,512,512,0.328125,0.328125,0.328125,30,none
+16,D_1183769_3_20121015_normal_1_hemangioma_0,4,2,D_1183769_3_20121015_normal_1_hemangioma_0 - WO  2.0  SPO,178,512,512,0.361328125,0.361328125,0.361328125,42,y
+16,D_1183769_3_20121015_normal_1_hemangioma_0,4,3,D_1183769_3_20121015_normal_1_hemangioma_0 - WE  2.0  H31s ,324,512,512,0.328125,0.328125,0.328125,29,none
+16,D_1183769_3_20121015_normal_1_hemangioma_0,4,4,D_1183769_3_20121015_normal_1_hemangioma_0 - WE  2.0  SPO  cor ,201,512,512,0.380859375,0.380859375,0.380859375,40,y
+17,D_1208497_1_20130807_epidermoid cyst_0_normal_1,4,1,D_1208497_1_20130807_epidermoid cyst_0_normal_1 - Facial WO  1.5  SPO ,269,512,512,0.28515625,0.28515625,0.28515625,52,y
+17,D_1208497_1_20130807_epidermoid cyst_0_normal_1,4,2,D_1208497_1_20130807_epidermoid cyst_0_normal_1 - Facial WE  1.5  SPO ,261,512,512,0.27734375,0.27734375,0.27734375,39,y
+17,D_1208497_1_20130807_epidermoid cyst_0_normal_1,4,3,D_1208497_1_20130807_epidermoid cyst_0_normal_1 - Facial WO  1.5  H31s,471,512,512,0.271484375,0.271484375,0.271484375,37,none
+17,D_1208497_1_20130807_epidermoid cyst_0_normal_1,4,4,D_1208497_1_20130807_epidermoid cyst_0_normal_1 - Facial WE  1.5  H31s,471,512,512,0.271484375,0.271484375,0.271484375,42,none
+18,D_1215208_3_20131101_normal_1_dermoid cyst _0,4,1,D_1208497_1_20130807_epidermoid cyst_0_normal_1 - Facial WO  1.5  SPO ,269,512,512,0.28515625,0.28515625,0.28515625,52,y
+18,D_1215208_3_20131101_normal_1_dermoid cyst _0,4,2,D_1208497_1_20130807_epidermoid cyst_0_normal_1 - Facial WE  1.5  SPO ,261,512,512,0.27734375,0.27734375,0.27734375,39,y
+18,D_1215208_3_20131101_normal_1_dermoid cyst _0,4,3,D_1208497_1_20130807_epidermoid cyst_0_normal_1 - Facial WO  1.5  H31s,471,512,512,0.271484375,0.271484375,0.271484375,37,none
+18,D_1215208_3_20131101_normal_1_dermoid cyst _0,4,4,D_1208497_1_20130807_epidermoid cyst_0_normal_1 - Facial WE  1.5  H31s,471,512,512,0.271484375,0.271484375,0.271484375,42,none
+19,Labeling,6,1,D_1125499_3_20140709_Dermoid_0_normal_1 - WO  1.0  H31s ,323,512,512,0.30078125,0.30078125,0.30078125,98,none
+19,Labeling,6,2,D_1125499_3_20140709_Dermoid_0_normal_1 - WE  1.0  H31s ,323,512,512,0.30078125,0.30078125,0.30078125,11,none
+19,Labeling,6,3,D_1125499_3_20140709_Dermoid_0_normal_1 - WO  1.0  H70h ,323,512,512,0.30078125,0.30078125,0.30078125,8,none
+19,Labeling,6,4,D_1125499_3_20140709_Dermoid_0_normal_1 - WE  1.0  H70h ,323,512,512,0.30078125,0.30078125,0.30078125,10,none
+19,Labeling,6,5,D_1125499_3_20140709_Dermoid_0_normal_1 - WO  1.0  MPR,503,512,860,0.1953125,0.1953125,0.1953125,96,y
+19,Labeling,6,6,D_1125499_3_20140709_Dermoid_0_normal_1 - WE  1.0  MPR,503,512,860,0.1953125,0.1953125,0.1953125,80,y
+20,Lipoma_rt_#1,2,1,V_18290996_3_20180627_Lipoma_1_Normal_0 - Axial 2.5mm -  100cc,329,512,512,0.404297,0.404297,0.404297,30,none
+20,Lipoma_rt_#1,2,2,V_18290996_3_20180627_Lipoma_1_Normal_0 - ORBIT COR 2mm ,426,512,512,0.404297,0.404297,0.404297,21,y
+21,Dermoid_cyst_lt_#2,2,1,V_19481785_3_20180413_Normal_0_Dermoid cyst_1 - Axial 2.5mm-visipaque 100cc ,385,512,512,0.371094,0.371094,0.371094,40,none
+21,Dermoid_cyst_lt_#2,2,2,V_19481785_3_20180413_Normal_0_Dermoid cyst_1 - ORBIT COR 2 mm,427,512,512,0.371094,0.371094,0.371094,42,y
+22,S_25836580_3_20121112_Hemangioma_0_Normal_1,2,1,25836580 - Orbit CE  3.0  H31s ,300,512,512,1,1,1,32,none
+22,S_25836580_3_20121112_Hemangioma_0_Normal_1,2,2,25836580 - Orbit CE  3.0  MPR,440,512,512,1,1,1,34,y
+23,Intraorbital_tumor_lt_#2,2,1,V_19934260_3_20190225_Normal_0_Intraorbital tumor_0 - Axial 2.5mm -  100cc,324,512,512,0.363281,0.363281,0.363281,24,none
+23,Intraorbital_tumor_lt_#2,2,2,V_19934260_3_20190225_Normal_0_Intraorbital tumor_0 - ORBIT COR 2mm ,392,512,512,0.363281,0.363281,0.363281,25,y
+24,S_21930882_3_20200316_Hemangioma_0_Normal_1,2,1,21930882 - Orbit CE   3.0  Hr38  2 ,370,512,512,1,1,1,29,none
+24,S_21930882_3_20200316_Hemangioma_0_Normal_1,2,2,21930882 - Orbit CE   3.0  MPR  cor,269,512,512,1,1,1,23,y
+25,Dermoid_cyst_lt_#1,2,1,V_19366709_3_20180201_Normal_0_dermoid cyst_1 - Axial 2.5mm -  100cc,353,512,512,0.369141,0.369141,0.369141,60,none
+25,Dermoid_cyst_lt_#1,2,2,V_19366709_3_20180201_Normal_0_dermoid cyst_1 - ORBIT COR 2mm ,413,512,512,0.369141,0.369141,0.369141,49,y
+26,Hemangioma_rt_#1,2,1,V_15436963_3_20190826_Hemangioma_1_Normal_0 - Axial 2.5mm ,340,512,512,0.398438,0.398438,0.398438,37,none
+26,Hemangioma_rt_#1,2,2,V_15436963_3_20190826_Hemangioma_1_Normal_0 - ORBIT COR 2 mm,443,512,512,0.398438,0.398438,0.398438,31,y
+27,Orbital_tumor_rt_#1,2,1,V_17976372_3_20180730_Orbital tumor_0_Normal_0 - Axial 2.5mm-visipaque 100cc ,318,512,512,0.417969,0.417969,0.417969,29,none
+27,Orbital_tumor_rt_#1,2,2,V_17976372_3_20180730_Orbital tumor_0_Normal_0 - ORBIT COR 2 mm,413,512,512,0.417969,0.417969,0.417969,52,y
+28,Pleomorphic_adenoma_rt_#1,2,1,V_20150405_3_20190715_Pleomorphic adenoma_1_Normal_0 - Axial 2.5mm -  100cc,372,512,512,0.4375,0.4375,0.4375,41,none
+28,Pleomorphic_adenoma_rt_#1,2,2,V_20150405_3_20190715_Pleomorphic adenoma_1_Normal_0 - ORBIT COR 2mm ,435,512,512,0.4375,0.4375,0.4375,52,y
+29,hidrocystoma_rt_#1,2,1,V_19571892_3_20180614_hidrocystoma_1_Normal_0 - Axial 2.5mm-visipaque 100cc ,300,512,512,0.410156,0.410156,0.410156,48,none
+29,hidrocystoma_rt_#1,2,2,V_19571892_3_20180614_hidrocystoma_1_Normal_0 - ORBIT COR 2 mm,420,512,512,0.410156,0.410156,0.410156,46,y
+30,209,2,1,V_19571892_3_20180614_hidrocystoma_1_Normal_0 - Axial 2.5mm-visipaque 100cc ,300,512,512,0.410156,0.410156,0.410156,48,none
+30,209,2,2,V_19571892_3_20180614_hidrocystoma_1_Normal_0 - ORBIT COR 2 mm,420,512,512,0.410156,0.410156,0.410156,46,y
+31,208,1,1,208 - Orbit Axial 3.0 B30s,141,512,512,1,1,1,67,none
