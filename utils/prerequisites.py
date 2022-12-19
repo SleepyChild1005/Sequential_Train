@@ -19,12 +19,15 @@ def get_parser():
 
     parser.add_argument("--exp_name", type=str, default='sensor3d_multilabel', help='experiment name')
     parser.add_argument("--cross_val", type=bool, default=True, help='cross validation')
+    parser.add_argument("--target_lb", type=int, default=2, help='target label')
+    parser.add_argument("--test_plot_prob", type=float, default=0.5, help='test plotting prob cut off value')
+    parser.add_argument("--kernel_size", type=int, default=3, help='test plotting prob cut off value')
 
     parser.add_argument("--pretrained_model", type=str,
                         default='pretrained_model/nodule_sensor3d_attention_final.pth',
                         help='path to pretrained model (pth file)')
     parser.add_argument("--dataset_path", type=str,
-                        default='./Sequence_Built/Sequential_Slices_Clipping/',
+                        default='./Data/Sequence_Built/Sequential_Slices_Clipping/',
                         help='path to target dataset path')
     opt = parser.parse_args()
 

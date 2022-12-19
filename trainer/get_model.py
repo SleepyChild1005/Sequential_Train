@@ -8,7 +8,7 @@ def weights_init(m):
         nn.init.xavier_uniform_(m.weight.data)
 
 
-def model_getter(device, image_size, model_type:str='sensor_3d', pretrained_model_dir=None):
+def model_getter(device, image_size, model_type:str='sensor_3d', pretrained_model_dir=None, kernel_size:int=3):
     ## 3 modes [ sensor3D Unet, Attention c sensor3D Unet, Domain Adaptation c Attention c sensor3D Unet ]
 
     # Attention
@@ -34,7 +34,7 @@ def model_getter(device, image_size, model_type:str='sensor_3d', pretrained_mode
     # SA_Unet
     elif model_type == 'sa_unet':
         from model.Torch_SA_Unet_OpthalCT import SA_Unet_Torch
-        sqNet = SA_Unet_Torch(image_size, device,n_class=1).to(device)
+        sqNet = SA_Unet_Torch(image_size, device,n_class=1,kernel_size=kernel_size).to(device)
         sqNet.apply(weights_init)
         print("###### Sensor3D + SA Unet Model ######")
 

@@ -16,6 +16,7 @@ class SA_Unet_Torch(nn.Module):
 
         self.start_neurons = start_neurons
         self.kernel_size = kernel_size
+        self.padding_size = (self.kernel_size-1)//2
 
         self.encode_block1 = nn.Sequential(
             TimeDistributedConv2d(1, self.start_neurons * 1, kernel_size=self.kernel_size, padding="same", dropout=True),
@@ -54,7 +55,7 @@ class SA_Unet_Torch(nn.Module):
         self.structured_dropout_convolutional_block_post = nn.Sequential(
             TimeDistributedConv2d(self.start_neurons * 8, self.start_neurons * 8, kernel_size=self.kernel_size, padding="same", dropout=True),
             nn.ELU(),
-            TimeDistributedConvTranspose2d(self.start_neurons * 8, self.start_neurons * 4, kernel_size=self.kernel_size, stride=2, padding=1, output_padding=1)
+            TimeDistributedConvTranspose2d(self.start_neurons * 8, self.start_neurons * 4, kernel_size=self.kernel_size, stride=2, padding=self.padding_size, output_padding=1)
         )
         # uconv3 = concatenate([deconv3, conv3]) <-concat here!
 
@@ -63,7 +64,7 @@ class SA_Unet_Torch(nn.Module):
             nn.ELU(),
             TimeDistributedConv2d(self.start_neurons * 4, self.start_neurons * 4, kernel_size=self.kernel_size, padding="same", dropout=True),
             nn.ELU(),
-            TimeDistributedConvTranspose2d(self.start_neurons * 4, self.start_neurons * 2, kernel_size=self.kernel_size, stride=2, padding=1, output_padding=1)
+            TimeDistributedConvTranspose2d(self.start_neurons * 4, self.start_neurons * 2, kernel_size=self.kernel_size, stride=2, padding=self.padding_size, output_padding=1)
         )
 
         self.unconv_block2 = nn.Sequential(
@@ -71,7 +72,7 @@ class SA_Unet_Torch(nn.Module):
             nn.ELU(),
             TimeDistributedConv2d(self.start_neurons * 2, self.start_neurons * 2, kernel_size=self.kernel_size, padding="same", dropout=True),
             nn.ELU(),
-            TimeDistributedConvTranspose2d(self.start_neurons * 2, self.start_neurons * 1, kernel_size=self.kernel_size, stride=2, padding=1, output_padding=1)
+            TimeDistributedConvTranspose2d(self.start_neurons * 2, self.start_neurons * 1, kernel_size=self.kernel_size, stride=2, padding=self.padding_size, output_padding=1)
         )
         #     uconv1 = concatenate([deconv1, conv1])
 
